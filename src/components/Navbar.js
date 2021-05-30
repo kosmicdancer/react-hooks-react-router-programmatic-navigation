@@ -1,3 +1,18 @@
+// import { useHistory } from "react-router-dom";
+
+// function NavBar() {
+//   const history = useHistory();
+
+//   function handleClick() {
+//     history.push("/login");
+//   }
+
+//   return (
+//     <nav>
+//       <button onClick={handleClick}>Logout</button>
+//     </nav>
+//   );
+// } 
 import React from "react";
 import { NavLink, useHistory } from "react-router-dom";
 
